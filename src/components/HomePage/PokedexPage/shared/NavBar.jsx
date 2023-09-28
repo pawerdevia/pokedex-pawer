@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/Pawer/Desktop/modulo2/ent5-gen29/src/assets/styles/NavBar.css'
+import '../../../../assets/styles/NavBar.css';
 
 
 const NavBar = () => {
