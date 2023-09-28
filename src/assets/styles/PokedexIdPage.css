@@ -1,0 +1,524 @@
+.pokedex{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.container-pokemon-id{
+    width: 80%;
+    margin-top: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.pokemonid__header{
+    width: 70%;
+    box-shadow: 0px 10px 20px black;
+    padding: 2px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemonid__container-img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-pokemon{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -100%;
+    left: 0;
+}
+
+.pokemonid__description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.description__number-pokemon{
+    border: 2px solid rgba(204, 204, 204, 0.3);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    min-width: 50px;
+}
+
+
+
+.description__name-pokemon{
+    font-size: 2rem;
+    text-decoration:underline;
+}
+
+.description__principal{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date__type{
+    font-size: 1rem;
+}
+
+.date__value{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container__section-type{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30%;
+}
+
+.container__title-type{
+    display: flex;
+    width: 90%;
+}
+
+.container__desciptions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.descriptions__title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.type-pokemon{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+}
+
+.section-stats{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.container-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.stats__title{
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+.type-img{
+    width: 80%;
+}
+
+.container__bars{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stat__bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__stat-bar{
+    background-color: #dfe6e9;
+}
+
+
+.container__movements{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px black;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.movements__header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+}
+
+.movements__title{
+    width: 20%;
+    font-weight: 800;
+}
+
+.imgb-movements{
+    width: 80%;
+    height: 100%;
+}
+
+.movements__all{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.movement{
+    background-color: #E5E5E5;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COLORES DE LOS NOMBRES */
+.normalT{
+    color: #A4ACAF;
+}
+
+.fightingT{
+    color: #D56723;
+}
+
+.poisonT{
+    color: #B97FC9;
+}
+
+.groundT{
+    color: #AB9842;
+}
+
+.rockT{
+    color: #A38C21;
+}
+
+.bugT{
+    color: #729F3F;
+}
+
+.ghostT{
+    color: #7B62A3;
+}
+
+.steelT{
+    color: #9EB7B8;
+}
+
+.fireT{
+    color: #FD7D24;
+}
+
+.waterT{
+    color: #4592C4;
+}
+
+.grassT{
+    color: #BAD6AA;
+}
+
+.electricT{
+    color: #EED535;
+}
+
+.psychicT{
+    color: #F366B9;
+}
+
+.iceT{
+    color: #4592C4;
+}
+
+.dragonT{
+    color: #F16E57;
+}
+
+.darkT{
+    color: #707070;
+}
+
+.fairyT{
+    color: #FDB9E9;
+}
+
+
+/* COLOR SIN EFECTO */
+
+/* COLORES DE LOS NOMBRES */
+.normalB{
+    background-color: #A4ACAF;
+}
+
+.fightingB{
+    background-color: #D56723;
+}
+
+.poisonB{
+    background-color: #B97FC9;
+}
+
+.groundB{
+    background-color: #AB9842;
+}
+
+.rockB{
+    background-color: #A38C21;
+}
+
+.bugB{
+    background-color: #729F3F;
+}
+
+.ghostB{
+    background-color: #7B62A3;
+}
+
+.steelB{
+    background-color: #9EB7B8;
+}
+
+.fireB{
+    background-color: #FD7D24;
+}
+
+.waterB{
+    background-color: #4592C4;
+}
+
+.grassB{
+    background-color: #BAD6AA;
+}
+
+.electricB{
+    background-color: #EED535;
+}
+
+.psychicB{
+    background-color: #F366B9;
+}
+
+.iceB{
+    background-color: #4592C4;
+}
+
+.dragonB{
+    background-color: #F16E57;
+}
+
+.darkB{
+    background-color: #707070;
+}
+
+.fairyB{
+    background-color: #FDB9E9;
+}
+
+
+
+
+
+
+
+
+
+/* BACKGROUND CON EFECTO */
+.normalC{
+    background: linear-gradient(1deg, #C3C3C1, #A4ACAF);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fightingC{
+    background: linear-gradient(1deg, #EB4971, #D56723);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.poisonC{
+    background: linear-gradient(1deg, #A040A0, #B97FC9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+
+.groundC{
+    background: linear-gradient(1deg, #D69638, #654008);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.rockC{
+    background: linear-gradient(1deg, #B6A136, #A38C21);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.bugC{
+    background: linear-gradient(1deg, #A8B820, #729F3F);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.ghostC{
+    background: linear-gradient(1deg, #787DDA, #323569);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.steelC{
+    background: linear-gradient(1deg, #D1D1E0, #9EB7B8);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fireC{
+    background: linear-gradient(1deg, #E8AE1B, #F96D6F);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.waterC{
+    background: linear-gradient(1deg, #1479FB, #133258);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.grassC{
+    background: linear-gradient(1deg, #BAD6AA, #82C1C9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.electricC{
+    background: linear-gradient(1deg, #fde047, #eab308);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.psychicC{
+    background: linear-gradient(1deg, #FBA8C9, #F366B9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.iceC{
+    background: linear-gradient(1deg, #BDEBFE, #6FBEDF);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.dragonC{
+    background: linear-gradient(1deg, #FCB6A7, #F16E57);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.darkC{
+    background: linear-gradient(1deg, #5A5E5D, #030706);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fairyC{
+    background: linear-gradient(1deg, #EE99AC, #FDB9E9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+
+
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+
+
+@media (max-width: 768px){
+    .img-pokemon{
+        width: 200px;
+        height: 200px;
+        top: -70%;
+    }
+}
+
+@media (max-width: 425px){
+
+    .img-pokemon{
+        width: 150px;
+        height: 150px;
+        top: -40%;
+    }
+
+    .container-pokemon-id{
+        margin-top: 80px;
+        width: 90%;
+    }
+
+    .pokedex{
+        top: 70px;
+        width: 20% !important;
+    }
+
+    .pokemonid__header{
+        width: 100%;
+    }
+
+    .container__movements{
+        padding:30px 20px;
+        width: 100%;
+    }
+
+    .container__section-type{
+        gap: 0;
+    }
+}

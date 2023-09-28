@@ -1,0 +1,357 @@
+.card-pokemon{
+    max-width: 300px;
+    border-radius: .6rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.card-pokemon:hover{
+    transform: translateY(-3%);
+}
+
+
+
+.card_header{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+
+.card__description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.header__img{
+    position: absolute;
+    bottom: -50%;
+    width: 70%;
+}
+
+.card__name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card__types{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card__type-info{
+    font-weight: 600;
+}
+
+.card__line{
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.508);
+}
+
+.card__type-text{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.579);
+}
+
+
+.card__stats{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.card__stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    font-weight: 600;
+}
+
+
+
+.card__value-stat{
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+/* COLORES DE LOS NOMBRES */
+.normalT{
+    color: #A4ACAF;
+}
+
+.fightingT{
+    color: #D56723;
+}
+
+.poisonT{
+    color: #B97FC9;
+}
+
+.groundT{
+    color: #AB9842;
+}
+
+.rockT{
+    color: #A38C21;
+}
+
+.bugT{
+    color: #729F3F;
+}
+
+.ghostT{
+    color: #7B62A3;
+}
+
+.steelT{
+    color: #9EB7B8;
+}
+
+.fireT{
+    color: #FD7D24;
+}
+
+.waterT{
+    color: #4592C4;
+}
+
+.grassT{
+    color: #BAD6AA;
+}
+
+.electricT{
+    color: #EED535;
+}
+
+.psychicT{
+    color: #F366B9;
+}
+
+.iceT{
+    color: #4592C4;
+}
+
+.dragonT{
+    color: #F16E57;
+}
+
+.darkT{
+    color: #707070;
+}
+
+.fairyT{
+    color: #FDB9E9;
+}
+
+
+
+
+
+/* CLASES DE COLORES PARA LOS BORDES */
+.normal{
+    border: 0.6rem solid #A4ACAF;
+}
+
+.fighting{
+    border: 0.6rem solid #D56723;
+}
+
+.poison{
+    border: 0.6rem solid #B97FC9;
+}
+
+.ground{
+    border: 0.6rem solid #AB9842;
+}
+
+.rock{
+    border: 0.6rem solid #A38C21;
+}
+
+.bug{
+    border: 0.6rem solid #729F3F;
+}
+
+.ghost{
+    border: 0.6rem solid #7B62A3;
+}
+
+.steel{
+    border: 0.6rem solid #9EB7B8;
+}
+
+.fire{
+    border: 0.6rem solid #FD7D24;
+}
+
+.water{
+    border: 0.6rem solid #4592C4;
+}
+
+.grass{
+    border: 0.6rem solid #BAD6AA;
+}
+
+.electric{
+    border: 0.6rem solid #EED535;
+}
+
+.psychic{
+    border: 0.6rem solid #F366B9;
+}
+
+.ice{
+    border: 0.6rem solid #4592C4;
+}
+
+.dragon{
+    border: 0.6rem solid #F16E57;
+}
+
+.dark{
+    border: 0.6rem solid #707070;
+}
+
+.fairy{
+    border: 0.6rem solid #FDB9E9;
+}
+
+
+
+/* CLASES PARA LOS HEADER GRADIENTS */
+
+.normalC{
+    background: linear-gradient(1deg, #C3C3C1, #A4ACAF);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fightingC{
+    background: linear-gradient(1deg, #EB4971, #D56723);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.poisonC{
+    background: linear-gradient(1deg, #A040A0, #B97FC9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+
+.groundC{
+    background: linear-gradient(1deg, #D69638, #654008);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.rockC{
+    background: linear-gradient(1deg, #B6A136, #A38C21);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.bugC{
+    background: linear-gradient(1deg, #A8B820, #729F3F);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.ghostC{
+    background: linear-gradient(1deg, #787DDA, #323569);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.steelC{
+    background: linear-gradient(1deg, #D1D1E0, #9EB7B8);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fireC{
+    background: linear-gradient(1deg, #E8AE1B, #F96D6F);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.waterC{
+    background: linear-gradient(1deg, #1479FB, #133258);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.grassC{
+    background: linear-gradient(1deg, #BAD6AA, #82C1C9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.electricC{
+    background: linear-gradient(1deg, #fde047, #eab308);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.psychicC{
+    background: linear-gradient(1deg, #FBA8C9, #F366B9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.iceC{
+    background: linear-gradient(1deg, #BDEBFE, #6FBEDF);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.dragonC{
+    background: linear-gradient(1deg, #FCB6A7, #F16E57);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.darkC{
+    background: linear-gradient(1deg, #5A5E5D, #030706);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+.fairyC{
+    background: linear-gradient(1deg, #EE99AC, #FDB9E9);
+    background-size: 200% 200%;
+    animation: AnimationName 3s ease infinite;
+}
+
+
+
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}

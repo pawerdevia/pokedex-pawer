@@ -1,0 +1,166 @@
+.container-homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+
+}
+
+.homepage__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.header__text-pokemon {
+    width: 35%;
+    height: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.header__pokeball{
+    display: none;
+}
+
+.homepage__greeting-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.greeting {
+    color: #FE0D31;
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+
+.welcome {
+    font-weight: 600;
+}
+
+.homepage__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    box-shadow: 0px 5px 5px rgba(105, 105, 105, 0.514);
+}
+
+.form__input {
+    width: 80%;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.form__btn {
+    width: 20%;
+    border: none;
+    background-color: #FE0D31;
+    color: white;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
+
+.form__btn:hover {
+    background-color: #9A210C;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.footer__img {
+    width: 100%;
+    height: 80%;
+
+}
+
+
+
+
+
+@media (max-width: 1024px){
+    .header__text-pokemon{
+        width: 65%;
+    }
+    .homepage__form {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .container-homepage{
+        justify-content: space-between;
+        padding-top: 10%;
+        gap: 60px;
+    }
+
+    .homepage__header{
+        min-height: 20vh;
+    }
+
+    
+    .header__text-pokemon{
+        position: absolute;
+        height: 5%;
+        width: 55%;
+        top: 145px;
+    }
+
+    .header__pokeball{
+        height: 160%;
+        display: block;
+    }
+
+    .homepage__greeting-name{
+        padding-top: 0;
+    }
+
+    .greeting{
+        font-size: 2rem;
+    }
+    .welcome{
+        font-size: 0.85rem;
+        font-weight: 800;
+    }
+    .homepage__form{
+        width: 80%;
+    }
+
+    .form__input{
+        font-size: 1rem;
+        height: 40px;
+    }
+
+    .footer{
+        margin-top: 100px;
+        height: 9vh;
+    }
+    .footer__img{
+        height: 80%;
+    }
+}

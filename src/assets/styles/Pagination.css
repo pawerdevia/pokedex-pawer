@@ -1,0 +1,20 @@
+.container-pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.container-pagination > button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.active{
+    background-color: #DD1A1A;
+    color: white;
+}

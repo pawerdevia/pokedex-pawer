@@ -1,0 +1,102 @@
+.pokedex-page{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.pokedexp__greetings{
+    font-size: 1.2rem;
+    color: #FE092E;
+    font-weight: 900;
+}
+
+
+.spam-nick{
+    color: black;
+    font-weight: 400;
+}
+
+
+.pokedexp__container-form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokedexp__form{
+    width: 55%;
+    box-shadow: 0px 3px 5px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form__input-pokedex{
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.form__btn-pokedexp{
+    background-color: #FE092E;
+    border: none;
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .2s ease-in;
+}
+
+.form__btn-pokedexp:hover{
+    background-color: #c90522;
+}
+
+.container__pokemons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+
+@media (max-width: 768px){
+    .container__select{
+        width: 40%;
+    }
+
+    .previus-home{
+        width: 20% !important;
+    }
+}
+@media (max-width: 425px){
+
+    .pokedex-page{
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .pokedexp__greetings{
+        text-align: center;
+    }
+
+    .pokedexp__container-form{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+        width: 100%;
+        align-items: center;
+    }
+    .pokedexp__form , .container__select{
+        width: 90%;
+    }
+    .previus-home{
+        width: 90% !important;
+        margin-left: 0 !important;
+    }
+
+    .card-pokemon{
+        width: 300px;
+    }
+}
+
